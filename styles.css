@@ -61,4 +61,10 @@ html body .topbar :is(.breadcrumbs,.breadcrumbs span,.breadcrumbs b,.project-pil
   html body .topbar .breadcrumbs,html body .topbar .project-pill,html body .topbar .top-avatar{display:none!important}
   html body .topbar .top-actions{margin-left:auto}
 }
+@media(max-width:760px){
+  html body .topbar .mobile-menu{font-size:22px!important;font-weight:800;color:#542078}
+  html body .topbar .icon-button{font-size:18px!important;font-weight:800;color:#542078;background:#f1e3fa;border-color:#b88bd2}
+  html[data-theme="dark"] body .topbar .mobile-menu{color:#f2dcff}
+  html[data-theme="dark"] body .topbar .icon-button{color:#f2dcff;background:#2b193b;border-color:#9c63c2}
+}
 
