@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="9" y1="5" x2="119" y2="125" gradientUnits="userSpaceOnUse"><stop stop-color="#27104A"/><stop offset="1" stop-color="#0A0614"/></linearGradient>
+    <linearGradient id="w" x1="22" y1="22" x2="107" y2="101" gradientUnits="userSpaceOnUse"><stop stop-color="#F27BFF"/><stop offset=".4" stop-color="#BD2CFF"/><stop offset=".72" stop-color="#8225F8"/><stop offset="1" stop-color="#5514E5"/></linearGradient>
+    <linearGradient id="facet" x1="48" y1="33" x2="83" y2="91" gradientUnits="userSpaceOnUse"><stop stop-color="#7017F2" stop-opacity=".05"/><stop offset=".52" stop-color="#4C0CDF" stop-opacity=".72"/><stop offset="1" stop-color="#E477FF" stop-opacity=".18"/></linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#bg)"/><rect x="1.5" y="1.5" width="125" height="125" rx="31" stroke="#B242FF" stroke-opacity=".5" stroke-width="3"/>
+  <path d="M13 42C24 42 30 46 35 56L43 72C46 78 51 78 54 72L68 35C70 30 73 30 75 35L91 72C94 78 99 78 102 72L111 56C116 46 122 42 133 42L118 77C112 92 104 101 94 101C83 101 76 92 69 78C62 92 55 101 44 101C34 101 26 92 20 77L13 42Z" transform="translate(-9 0)" fill="url(#w)"/>
+  <path d="M64 35L48 75L56 94L64 78L72 94L80 75L64 35Z" fill="url(#facet)"/>
+</svg>
+
