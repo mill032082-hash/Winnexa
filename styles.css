@@ -51,3 +51,8 @@ body{font-size:18px}
 .metric-card>strong,.hero-number strong{font-variant-numeric:tabular-nums}
 @media(max-width:760px){.page-heading h1{font-size:26px}.hero-copy h2{font-size:24px}.hero-number strong{font-size:34px}.metric-card{padding:14px;min-height:106px}.metric-card>strong{font-size:27px}.metric-label{font-size:9px}}
 
+/* Override final para que reglas antiguas de componentes no reduzcan el texto móvil. */
+html body .content :is(p,small,label,input,select,textarea,button,a,td,th,span,b,em,blockquote,.metric-label,.product-title-row strong,.text-action,.subtle-badge,.ad-platform,.source-row b,.research-tip b,.coverage-label em){font-size:18px!important;line-height:1.45}
+html body .content .metric-icon,html body .content .coverage-indicator{font-size:18px!important}
+html body .sidebar .nav-item{font-size:18px!important}
+
