@@ -16,11 +16,11 @@ html[data-theme="light"] .fact-note,html[data-theme="light"] .research-tip,html[
 html[data-theme="light"] .field input,html[data-theme="light"] .field select,html[data-theme="light"] .field textarea{background:#fff;color:#261b31;border-color:#ded0e8}html[data-theme="light"] .field{color:#5d4b68}html[data-theme="light"] thead{background:#f5eff8}html[data-theme="light"] th{color:#756681}html[data-theme="light"] td{color:#493b53}html[data-theme="light"] .button-secondary{background:#fff;color:#5e3474;border-color:#dfd1e8}
 html[data-theme="light"] .report-banner{background:linear-gradient(105deg,#68209a,#a62bd0)}html[data-theme="light"] .report-outline h2{color:#261b31}html[data-theme="light"] .dialog-head p{color:#766783}html[data-theme="light"] .close-dialog{background:#f6eff9;color:#5b4169;border-color:#dfd1e8}html[data-theme="light"] .footer{color:#81738d}html[data-theme="light"] .warning-box{background:#fff8e9;border-color:#f0dfbb;color:#694e1b}html[data-theme="light"] .warning-box p{color:#78653e}html[data-theme="light"] .empty-card h3{color:#34203f}html[data-theme="light"] .badge-warn{background:#fff3dc;color:#865d15}html[data-theme="light"] .record-dialog::backdrop{background:#20112a66}
 
-/* Legibilidad: texto de lectura y controles a 15 px; títulos y cifras conservan su jerarquía. */
-body{font-size:15px}
-.content :is(p,small,label,input,select,textarea,button,a,td,th,span,b,em,blockquote,.metric-label,.product-title-row strong,.text-action,.subtle-badge,.ad-platform,.source-row b,.research-tip b,.coverage-label em){font-size:15px!important;line-height:1.45}
-.content .metric-icon,.content .coverage-indicator{font-size:15px!important}
-.nav-item{font-size:15px}
+/* Legibilidad: texto de lectura y controles a 18 px; títulos y cifras conservan su jerarquía. */
+body{font-size:18px}
+.content :is(p,small,label,input,select,textarea,button,a,td,th,span,b,em,blockquote,.metric-label,.product-title-row strong,.text-action,.subtle-badge,.ad-platform,.source-row b,.research-tip b,.coverage-label em){font-size:18px!important;line-height:1.45}
+.content .metric-icon,.content .coverage-indicator{font-size:18px!important}
+.nav-item{font-size:18px}
 
 /* Winnexa: tipografía y métricas más legibles, inspiradas en el panel de referencia. */
 .page-heading h1{font-size:30px;letter-spacing:-1px}
