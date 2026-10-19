@@ -21,6 +21,10 @@ body{font-size:18px}
 .content :is(p,small,label,input,select,textarea,button,a,td,th,span,b,em,blockquote,.metric-label,.product-title-row strong,.text-action,.subtle-badge,.ad-platform,.source-row b,.research-tip b,.coverage-label em){font-size:18px!important;line-height:1.45}
 .content .metric-icon,.content .coverage-indicator{font-size:18px!important}
 .nav-item{font-size:18px}
+@media(max-width:760px){
+  body,.content :is(p,small,label,input,select,textarea,button,a,td,th,span,b,em,blockquote,.metric-label,.product-title-row strong,.text-action,.subtle-badge,.ad-platform,.source-row b,.research-tip b,.coverage-label em),.nav-item{font-size:18px!important}
+  .content .metric-icon,.content .coverage-indicator{font-size:18px!important}
+}
 
 /* Winnexa: tipografía y métricas más legibles, inspiradas en el panel de referencia. */
 .page-heading h1{font-size:30px;letter-spacing:-1px}
