@@ -16,6 +16,7 @@
       <div class="nav-label">ESTUDIO 360°</div>
       <nav class="main-nav" aria-label="Secciones de investigación">
         <button class="nav-item active" data-view="overview"><span class="nav-icon">▦</span>Resumen</button>
+        <button class="nav-item" data-view="hunt"><span class="nav-icon">✦</span>Caza diaria<span class="nav-count" id="huntCount">0</span></button>
         <button class="nav-item" data-view="product"><span class="nav-icon">◇</span>Ficha del producto</button>
         <button class="nav-item" data-view="voice"><span class="nav-icon">☷</span>Voz del cliente<span class="nav-count" id="voiceCount">0</span></button>
         <button class="nav-item" data-view="competitors"><span class="nav-icon">▣</span>Competidores<span class="nav-count" id="competitorCount">0</span></button>
@@ -42,6 +43,20 @@
             <section class="panel product-summary"><div class="panel-heading"><div><h2>Producto en estudio</h2><p>Información identificada hasta ahora</p></div><button class="text-action" data-jump="product">Ver ficha →</button></div><div class="product-title-row"><div class="product-emblem">A</div><div><strong id="summaryName">Drenaje linfático Aurelys</strong><small id="summaryCategory">Belleza · Perú</small></div><span class="status-pill status-pending" id="identityStatus">PARCIAL</span></div><div class="product-facts"><div><small>PLATAFORMA</small><b id="summaryPlatform">Dropi</b></div><div><small>PROVEEDOR</small><b id="summarySupplier">Nibresma · verificado</b></div><div><small>STOCK OBSERVADO</small><b id="summaryStock">293 unidades</b></div></div><div class="fact-note">Ventas catalogadas: <b id="summarySales">193 en 30 días · 56 en 7 días</b><br>Fuente: DropKiller · 18 oct 2026</div></section>
           </div>
           <section class="panel next-steps"><div class="panel-heading"><div><h2>Lo siguiente por investigar</h2><p>Completa las evidencias pendientes antes de formular el veredicto.</p></div></div><div class="next-grid"><button class="next-item" data-jump="product"><span class="next-number">01</span><span><b>Verificar etiqueta y composición</b><small>Ingredientes, modo de uso y alérgenos</small></span><span class="next-arrow">→</span></button><button class="next-item" data-jump="competitors"><span class="next-number">02</span><span><b>Encontrar competidores activos</b><small>Oferta, precio y modelo de pago</small></span><span class="next-arrow">→</span></button><button class="next-item" data-jump="voice"><span class="next-number">03</span><span><b>Escuchar la voz del cliente</b><small>Preguntas, objeciones y lenguaje real</small></span><span class="next-arrow">→</span></button></div></section>
+        </section>
+
+        <section class="view-panel" id="view-hunt">
+          <div class="page-heading"><div><div class="eyebrow">RADAR · OPORTUNIDADES DIARIAS</div><h1>Caza diaria</h1><p class="page-subtitle">Registra señales de productos, compara ventas y margen, y prioriza qué vale la pena validar.</p></div><div class="heading-actions"><button class="button button-primary" data-open-record="hunt">＋ Registrar candidato</button></div></div>
+          <div class="overview-hero hunt-hero"><div class="hero-copy"><div class="hero-kicker">RADAR DE PRODUCTOS</div><h2>De señal a decisión</h2><p>Guarda cada hallazgo con su fuente, país y datos observados.</p><small>Los candidatos quedan guardados en este navegador.</small></div><div class="hero-number"><strong id="huntTotalHero">0</strong><span>candidatos</span></div><div class="hero-orb"></div></div>
+          <div class="metric-grid hunt-metrics">
+            <article class="metric-card"><div class="metric-label">CANDIDATOS TOTALES <span class="metric-icon purple">✦</span></div><strong id="huntTotal">0</strong><small>Registros de caza diaria</small></article>
+            <article class="metric-card"><div class="metric-label">NUEVOS HOY <span class="metric-icon blue">＋</span></div><strong id="huntToday">0</strong><small>Hallazgos con fecha de hoy</small></article>
+            <article class="metric-card"><div class="metric-label">VIABLES <span class="metric-icon green">✓</span></div><strong id="huntViable">0</strong><small>Según tus costos registrados</small></article>
+            <article class="metric-card"><div class="metric-label">POR REVISAR <span class="metric-icon amber">⌕</span></div><strong id="huntReview">0</strong><small>Nuevos o pendientes de validar</small></article>
+          </div>
+          <div class="hunt-toolbar panel"><label class="field">Buscar candidato<input id="huntSearch" type="search" placeholder="Producto, proveedor o categoría"></label><label class="field">Estado<select id="huntStatusFilter"><option value="">Todos los estados</option><option>Nuevo</option><option>Validar</option><option>Viable</option><option>Repreciar</option><option>Descartado</option></select></label><span class="hunt-evidence-note">Registra la fuente y la fecha. Caza diaria organiza tus datos; no consulta DropKiller automáticamente.</span></div>
+          <div class="records-grid hunt-grid" id="huntList"></div>
+          <div class="empty-card" id="huntEmpty"><span>✦</span><h3>Aún no hay candidatos en tu radar</h3><p>Agrega el primer producto desde DropKiller, Dropi, AliClick u otra fuente y anota sus ventas, stock, costo y enlace.</p><button class="button button-primary" data-open-record="hunt">Registrar primer candidato</button></div>
         </section>
 
         <section class="view-panel" id="view-product">
