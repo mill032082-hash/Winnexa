@@ -1,0 +1,13 @@
+{
+  "name": "Winnexa · Investigación de mercado",
+  "short_name": "Winnexa",
+  "description": "Tu próximo producto ganador empieza aquí.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#10091e",
+  "theme_color": "#10091e",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
+
