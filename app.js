@@ -73,6 +73,13 @@
   function applyTheme(theme){const light=theme==='light';document.documentElement.dataset.theme=light?'light':'dark';themeButton.textContent=light?'☾':'☀';themeButton.setAttribute('aria-label',light?'Cambiar a tema oscuro':'Cambiar a tema claro');themeButton.title=light?'Cambiar a tema oscuro':'Cambiar a tema claro';}
   let savedTheme='dark';try{savedTheme=localStorage.getItem('winnexa-theme')||'dark';}catch{}
   applyTheme(savedTheme);themeButton.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='light'?'dark':'light';applyTheme(next);try{localStorage.setItem('winnexa-theme',next);}catch{}});
+  const settingsDialog=$('settingsDialog'),settingsTheme=$('settingsTheme'),settingsTextSize=$('settingsTextSize');
+  function applyTextSize(value){const size=['13','15','18'].includes(String(value))?String(value):'15';document.documentElement.style.setProperty('--text-size',`${size}px`);return size;}
+  let savedTextSize='15';try{savedTextSize=localStorage.getItem('winnexa-text-size')||'15';}catch{}
+  applyTextSize(savedTextSize);
+  $('settingsToggle').addEventListener('click',()=>{settingsTheme.value=document.documentElement.dataset.theme||'dark';settingsTextSize.value=getComputedStyle(document.documentElement).getPropertyValue('--text-size').trim().replace('px','')||'15';settingsDialog.showModal();});
+  $('closeSettings').addEventListener('click',()=>settingsDialog.close());$('cancelSettings').addEventListener('click',()=>settingsDialog.close());
+  $('settingsForm').addEventListener('submit',event=>{event.preventDefault();applyTheme(settingsTheme.value);const size=applyTextSize(settingsTextSize.value);try{localStorage.setItem('winnexa-theme',settingsTheme.value);localStorage.setItem('winnexa-text-size',size);}catch{}settingsDialog.close();toast('Ajustes guardados');});
   updateProductForm();render();
 })();
 
