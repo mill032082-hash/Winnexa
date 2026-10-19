@@ -90,3 +90,34 @@ html body .sidebar .brand-mark img{width:40px;height:auto;max-width:none;object-
 @media(max-width:760px){html body .topbar .mobile-brand-icon{display:grid;place-items:center;width:34px;height:34px;flex:0 0 34px;border-radius:11px;background:linear-gradient(145deg,#2d1550,#10091e);border:1px solid #a746e566;box-shadow:0 0 14px #a52aff44}.mobile-brand-icon img{display:block;width:30px;height:auto;max-width:none;object-fit:contain}}
 
 
+/* Caza diaria: radar de oportunidades guardado localmente. */
+.hunt-hero{background:linear-gradient(110deg,#351052 0%,#7020b0 58%,#b52ce8 100%);border-color:#7439a2}
+.hunt-hero .hero-number strong{font-size:40px}
+.hunt-metrics .metric-card{min-height:108px}
+.hunt-toolbar{display:grid;grid-template-columns:minmax(220px,1fr) minmax(180px,.55fr) minmax(220px,1fr);gap:14px;align-items:end;margin:0 0 14px}
+.hunt-toolbar .field{font-size:15px}
+.hunt-toolbar .field input,.hunt-toolbar .field select{min-height:42px;font-size:15px}
+.hunt-evidence-note{font-size:13px;line-height:1.5;color:var(--muted);padding-bottom:8px}
+.hunt-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.hunt-card{min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.hunt-card-head{display:flex;justify-content:space-between;align-items:center}
+.hunt-state{display:inline-flex;border-radius:15px;padding:5px 9px;background:#33264a;color:#d4b8ff;font-size:12px;font-weight:700}
+.hunt-state[data-status="Viable"]{background:#17483c;color:#7de4c2}
+.hunt-state[data-status="Repreciar"]{background:#493b22;color:#f4d17d}
+.hunt-state[data-status="Descartado"]{background:#4b2932;color:#f1a5b3}
+.hunt-card h2{font:800 20px var(--display);margin:12px 0 3px;color:var(--ink);overflow-wrap:anywhere}
+.hunt-meta{font-size:13px;color:var(--muted);margin:0 0 13px}
+.hunt-data-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.hunt-data-grid span{display:grid;gap:4px;min-width:0;padding:9px;background:var(--panel2);border-radius:8px;color:var(--muted);font-size:11px}
+.hunt-data-grid b{font-size:15px;color:var(--ink);overflow-wrap:anywhere}
+.hunt-card-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid var(--line);margin-top:12px;padding-top:10px;color:var(--muted);font-size:12px}
+.hunt-card-foot a{color:#bb91ff;font-size:13px;text-decoration:none;white-space:nowrap}
+.hunt-notes{font-size:13px;line-height:1.5;color:var(--soft);margin:10px 0 0;white-space:pre-wrap}
+@media(max-width:900px){.hunt-toolbar{grid-template-columns:1fr 1fr}.hunt-evidence-note{grid-column:span 2}}
+@media(max-width:760px){.hunt-grid{grid-template-columns:1fr}.hunt-toolbar{grid-template-columns:1fr}.hunt-evidence-note{grid-column:auto;padding:0}.hunt-card{padding:14px}.hunt-card h2{font-size:19px}.hunt-data-grid span{font-size:11px}.hunt-data-grid b{font-size:14px}}
+@media(max-width:420px){.hunt-data-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hunt-card-foot{align-items:flex-start;flex-direction:column}}
+html[data-theme="light"] .hunt-state{background:#f0e1fa;color:#6d2a91}
+html[data-theme="light"] .hunt-state[data-status="Viable"]{background:#dff5ed;color:#126848}
+html[data-theme="light"] .hunt-state[data-status="Repreciar"]{background:#fff3d7;color:#815d13}
+html[data-theme="light"] .hunt-state[data-status="Descartado"]{background:#fde6e9;color:#8c3042}
+
