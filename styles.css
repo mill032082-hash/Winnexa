@@ -85,3 +85,8 @@ html body .sidebar .brand-mark{width:44px;height:44px;flex:0 0 44px;overflow:vis
 html body .sidebar .brand-mark img{width:40px;height:auto;max-width:none;object-fit:contain;visibility:visible;opacity:1}
 
 
+/* Marca visible en la barra móvil aunque el menú lateral esté cerrado. */
+.mobile-brand-icon{display:none}
+@media(max-width:760px){html body .topbar .mobile-brand-icon{display:grid;place-items:center;width:34px;height:34px;flex:0 0 34px;border-radius:11px;background:linear-gradient(145deg,#2d1550,#10091e);border:1px solid #a746e566;box-shadow:0 0 14px #a52aff44}.mobile-brand-icon img{display:block;width:30px;height:auto;max-width:none;object-fit:contain}}
+
+
