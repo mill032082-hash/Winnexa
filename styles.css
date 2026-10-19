@@ -57,4 +57,8 @@ html body .content .metric-icon,html body .content .coverage-indicator{font-size
 html body .sidebar .nav-item{font-size:15px!important}
 html body .topbar :is(.breadcrumbs,.breadcrumbs span,.breadcrumbs b,.project-pill,.icon-button,.mobile-menu,.top-avatar){font-size:13px!important}
 @media(max-width:760px){html body .topbar .project-pill{max-width:170px}}
+@media(max-width:760px){
+  html body .topbar .breadcrumbs,html body .topbar .project-pill,html body .topbar .top-avatar{display:none!important}
+  html body .topbar .top-actions{margin-left:auto}
+}
 
