@@ -79,3 +79,9 @@ html[data-theme="light"] .topbar{background:#fffd}
 @media(max-width:760px){html body .topbar button#mobileMenu{display:grid!important;place-items:center;flex:0 0 36px;width:36px;height:36px;min-width:36px;padding:0!important;overflow:visible;background:transparent!important;border:0!important;color:#542078!important;font-family:Arial,sans-serif!important;font-size:18px!important;font-weight:700!important;line-height:1!important;opacity:1!important;visibility:visible!important}html[data-theme=dark] body .topbar button#mobileMenu{color:#f2dcff!important}}
 
 
+/* Logo Winnexa visible y legible sobre el área de trabajo. */
+html body .sidebar .brand{display:flex!important;visibility:visible!important;opacity:1!important}
+html body .sidebar .brand-mark{width:44px;height:44px;flex:0 0 44px;overflow:visible}
+html body .sidebar .brand-mark img{width:40px;height:auto;max-width:none;object-fit:contain;visibility:visible;opacity:1}
+
+
