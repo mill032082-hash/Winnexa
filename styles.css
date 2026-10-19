@@ -55,4 +55,6 @@ body{font-size:15px}
 html body .content :is(p,small,label,input,select,textarea,button,a,td,th,span,b,em,blockquote,.metric-label,.product-title-row strong,.text-action,.subtle-badge,.ad-platform,.source-row b,.research-tip b,.coverage-label em){font-size:15px!important;line-height:1.45}
 html body .content .metric-icon,html body .content .coverage-indicator{font-size:15px!important}
 html body .sidebar .nav-item{font-size:15px!important}
+html body .topbar :is(.breadcrumbs,.breadcrumbs span,.breadcrumbs b,.project-pill,.icon-button,.mobile-menu,.top-avatar){font-size:13px!important}
+@media(max-width:760px){html body .topbar .project-pill{max-width:170px}}
 
