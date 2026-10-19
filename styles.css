@@ -16,3 +16,28 @@ html[data-theme="light"] .fact-note,html[data-theme="light"] .research-tip,html[
 html[data-theme="light"] .field input,html[data-theme="light"] .field select,html[data-theme="light"] .field textarea{background:#fff;color:#261b31;border-color:#ded0e8}html[data-theme="light"] .field{color:#5d4b68}html[data-theme="light"] thead{background:#f5eff8}html[data-theme="light"] th{color:#756681}html[data-theme="light"] td{color:#493b53}html[data-theme="light"] .button-secondary{background:#fff;color:#5e3474;border-color:#dfd1e8}
 html[data-theme="light"] .report-banner{background:linear-gradient(105deg,#68209a,#a62bd0)}html[data-theme="light"] .report-outline h2{color:#261b31}html[data-theme="light"] .dialog-head p{color:#766783}html[data-theme="light"] .close-dialog{background:#f6eff9;color:#5b4169;border-color:#dfd1e8}html[data-theme="light"] .footer{color:#81738d}html[data-theme="light"] .warning-box{background:#fff8e9;border-color:#f0dfbb;color:#694e1b}html[data-theme="light"] .warning-box p{color:#78653e}html[data-theme="light"] .empty-card h3{color:#34203f}html[data-theme="light"] .badge-warn{background:#fff3dc;color:#865d15}html[data-theme="light"] .record-dialog::backdrop{background:#20112a66}
 
+/* Winnexa: tipografía y métricas más legibles, inspiradas en el panel de referencia. */
+.page-heading h1{font-size:30px;letter-spacing:-1px}
+.page-subtitle{font-size:13px}
+.hero-copy h2{font-size:30px}
+.hero-copy p{font-size:13px}
+.hero-copy>small,.hero-number span{font-size:11px}
+.hero-number strong{font-size:44px}
+.metric-card{padding:17px 18px;min-height:116px}
+.metric-label{font-size:10px;letter-spacing:.55px}
+.metric-card>strong{font-size:31px;margin:9px 0 4px}
+.metric-card>small{font-size:11px}
+.panel-heading h2{font-size:16px}
+.panel-heading p{font-size:11px}
+.coverage-label b{font-size:11px}
+.coverage-label small{font-size:10px}
+.coverage-label em{font-size:9px}
+.product-title-row strong{font-size:13px}
+.product-title-row small{font-size:10px}
+.product-facts small{font-size:9px}
+.product-facts b{font-size:12px}
+.fact-note,.panel-foot{font-size:10px}
+.nav-item{font-size:12px}
+.metric-card>strong,.hero-number strong{font-variant-numeric:tabular-nums}
+@media(max-width:760px){.page-heading h1{font-size:26px}.hero-copy h2{font-size:24px}.hero-number strong{font-size:34px}.metric-card{padding:14px;min-height:106px}.metric-card>strong{font-size:27px}.metric-label{font-size:9px}}
+
