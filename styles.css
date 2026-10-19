@@ -52,9 +52,9 @@ body{font-size:15px}
 @media(max-width:760px){.page-heading h1{font-size:26px}.hero-copy h2{font-size:24px}.hero-number strong{font-size:34px}.metric-card{padding:14px;min-height:106px}.metric-card>strong{font-size:27px}.metric-label{font-size:9px}}
 
 /* Override final para que reglas antiguas de componentes no reduzcan el texto móvil. */
-html body .content :is(p,small,label,input,select,textarea,button,a,td,th,span,b,em,blockquote,.metric-label,.product-title-row strong,.text-action,.subtle-badge,.ad-platform,.source-row b,.research-tip b,.coverage-label em){font-size:15px!important;line-height:1.45}
+html body .content :is(p,small,label,input,select,textarea,button,a,td,th,span,b,em,blockquote,.metric-label,.product-title-row strong,.text-action,.subtle-badge,.ad-platform,.source-row b,.research-tip b,.coverage-label em){font-size:var(--text-size,15px)!important;line-height:1.45}
 html body .content .metric-icon,html body .content .coverage-indicator{font-size:15px!important}
-html body .sidebar .nav-item{font-size:15px!important}
+html body .sidebar .nav-item{font-size:var(--text-size,15px)!important}
 html body .topbar :is(.breadcrumbs,.breadcrumbs span,.breadcrumbs b,.project-pill,.icon-button,.mobile-menu,.top-avatar){font-size:13px!important}
 @media(max-width:760px){html body .topbar .project-pill{max-width:170px}}
 @media(max-width:760px){
@@ -67,4 +67,12 @@ html body .topbar :is(.breadcrumbs,.breadcrumbs span,.breadcrumbs b,.project-pil
   html[data-theme="dark"] body .topbar .mobile-menu{color:#f2dcff}
   html[data-theme="dark"] body .topbar .icon-button{color:#f2dcff;background:#2b193b;border-color:#9c63c2}
 }
+html{--text-size:15px}
+body{font-size:var(--text-size,15px)}
+.topbar{position:sticky;top:0;z-index:20;background:var(--bg);backdrop-filter:blur(12px)}
+.settings-dialog{width:min(460px,calc(100vw - 24px))}
+.settings-fields{grid-template-columns:1fr 1fr}
+.settings-dialog .field,.settings-dialog .field select,.settings-dialog .dialog-head p,.settings-dialog .dialog-footer .button{font-size:15px}
+@media(max-width:760px){.topbar{padding-top:env(safe-area-inset-top);min-height:calc(56px + env(safe-area-inset-top))}.settings-fields{grid-template-columns:1fr}}
+html[data-theme="light"] .topbar{background:#fffd}
 
