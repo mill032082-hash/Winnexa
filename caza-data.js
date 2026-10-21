@@ -1,7 +1,7 @@
  // Feed público del Radar Diario; se actualiza con los informes fechados.
 window.WINNEXA_DAILY_HUNT = {
-  updatedAt: "2026-10-19T11:32:31-05:00",
-  runDate: "2026-10-19",
+  updatedAt: "2026-10-20T19:02:00-05:00",
+  runDate: "2026-10-20",
   items: [
     {
       id: "e3e1b2d9-39c9-48cc-a95c-653ad1bb1db2",
@@ -106,6 +106,58 @@ window.WINNEXA_DAILY_HUNT = {
       date: "2026-10-19",
       url: "https://aliclik.app/dashboard/search?search=14190",
       notes: "Rentabilidad PENDIENTE: faltan costos COD y moneda; importes catálogo 56/84 no indican divisa de forma explícita. DropKiller PE 2026-10-19: id 2b2abe13-e65f-47e9-ba4d-163618608b5d, externo 14190, ventas 47/7d y 47/30d, stock 2 (bajo), ACTIVE, proveedor almacen sumak no verificado, sin ajuste sospechoso pero confianza baja y pico de un día; 1 día con ventas en 30d. Anuncios Meta PE: 'skin1004' halló 1 anuncio de freebox.p (video, 5 días) mencionando SKIN1004 entre varias marcas y 35% OFF, muestras/regalos y envío rápido; no identifica ampolla ni esta SKU. Consulta 'centella ampoule': 0 resultados; sin competencia directa confirmada. URL de anuncio: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=1327922212631418. Hipótesis: textura en plano cercano; rutina simple acorde a instrucciones; desglose de ingredientes confirmado por etiqueta; prueba de absorción solo demostrativa; pack de rutina únicamente al reponer stock y validar margen. Riesgos: marca comercial SKIN1004 requiere autorización/originalidad verificable; cosmético requiere etiqueta, composición y revisión regulatoria local; stock 2 puede agotarse y las ventas concentran un día, alto riesgo de reposición. Fuentes DropKiller y Meta PE, 2026-10-19."
+    },
+    {
+      id: "f997217c-f885-4b1e-a9e8-8b5d7f9ccecb",
+      name: "beast bites creatina",
+      country: "PE",
+      platform: "DROPI",
+      category: "belleza",
+      supplier: "nibresma (verificado)",
+      sales7: 21,
+      sales30: 43,
+      stock: 959,
+      cost: 20,
+      suggestedPrice: 20,
+      currency: null,
+      score: 6,
+      scoreBreakdown: {
+        need: { score: 2, reason: "La categoría responde a objetivos de entrenamiento, pero no hay evidencia específica de una necesidad para esta ficha." },
+        emotionalBenefit: { score: 1, reason: "Anuncios de creatina en PE hablan de fuerza y progreso físico, sin atribución a esta marca o producto." },
+        demonstration: { score: 2, reason: "El formato de suplemento permite mostrar envase y preparación; no se encontró anuncio de este SKU." },
+        newAngles: { score: 1, reason: "La búsqueda de categoría mostró 8 anuncios de 7 anunciantes con mensajes de rendimiento y bundles; no se observó campaña exacta." },
+        bundle: { score: 0, reason: "Aunque hay bundles de categoría, faltan moneda y costos COD para probar margen de pack." }
+      },
+      status: "PENDIENTE",
+      date: "2026-10-20",
+      url: "https://app.dropi.pe/dashboard/search?search=9707&search_type=id",
+      notes: "Rentabilidad PENDIENTE: faltan flete de entrega y devolución, comisión COD %, tasa efectiva de entrega %, CPA por pedido generado y utilidad mínima; catálogo informa costo/precio sugerido 20/20 sin moneda confirmada. DropKiller PE consultado 2026-10-20: UUID f997217c-f885-4b1e-a9e8-8b5d7f9ccecb, externo 9707, nombre original 'beast bites creatina', 21 ventas/7d, 43/30d, stock 959, ACTIVE, costo 20, sugerido 20, proveedor nibresma verificado, sin ajuste sospechoso, confianza alta y ventas en 11 días/30d. Ads Meta PE: búsqueda exacta 'beast bites creatina' 0 coincidencias; consulta de categoría 'creatina' mostró 8 anuncios activos recientes de 7 anunciantes distintos (5 piezas imagen y 3 video; antigüedad observada 0–9 días), sin atribuirlos al SKU. Muestra: LabNutrition promociona stack a S/199 https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=3729121107263537; Nura Nativa Perú habla de rendimiento para mujeres https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=27762947816644079; Aobnutrition ofrece whey + creatina https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=27604374215931331. Ángulos observados: fuerza/rendimiento, audiencia fitness femenina, combos de suplementos y compra industrial; ofertas S/199 y pack whey+creatina S/219.90, sin precio verificable para este SKU. Cinco propuestas a validar: demostración de disolución según etiqueta; rutina alrededor del entrenamiento sin prometer resultados; mostrar tabla nutricional/origen del lote; guía de uso únicamente según rótulo; prueba de bundle solo con economía calculada. Riesgos: suplemento/alimento con claims y requisitos locales por verificar con fuente oficial; verificar composición, registro/etiquetado y autenticidad; devoluciones por expectativas de resultados; moneda no confirmada. Fuentes: DropKiller catálogo y biblioteca Meta PE, consulta 2026-10-20."
+    },
+    {
+      id: "849ee460-2134-461b-82c6-ef8db434e80f",
+      name: "rodillo quita pelusa",
+      country: "PE",
+      platform: "DROPI",
+      category: "hogar-deco",
+      supplier: "evermont (verificado)",
+      sales7: 20,
+      sales30: 41,
+      stock: 164,
+      cost: 7,
+      suggestedPrice: 19,
+      currency: null,
+      score: 9,
+      scoreBreakdown: {
+        need: { score: 3, reason: "Anuncio peruano del producto aborda pelusa/pelo en ropa, sofá y textiles." },
+        emotionalBenefit: { score: 2, reason: "La limpieza visible del hogar/ropa puede dar sensación de orden; el anuncio no aporta medida de respuesta." },
+        demonstration: { score: 3, reason: "El anuncio observado es video y demuestra el uso del rodillo sobre superficies textiles." },
+        newAngles: { score: 1, reason: "Se observó un anunciante directo con oferta 2x1; quedan posibles contextos de uso, pero no evidencia de rendimiento." },
+        bundle: { score: 0, reason: "El competidor ofrece dos unidades, pero sin costos COD ni divisa del catálogo no se puede defender el margen del pack." }
+      },
+      status: "PENDIENTE",
+      date: "2026-10-20",
+      url: "https://app.dropi.pe/dashboard/search?search=174&search_type=id",
+      notes: "Rentabilidad PENDIENTE: faltan flete de entrega y devolución, comisión COD %, tasa efectiva de entrega %, CPA por pedido generado y utilidad mínima; catálogo informa costo/precio sugerido 7/19 sin moneda confirmada. DropKiller PE consultado 2026-10-20: UUID 849ee460-2134-461b-82c6-ef8db434e80f, externo 174, nombre original 'rodillo quita pelusa', 20 ventas/7d, 41/30d, stock 164, ACTIVE, proveedor evermont verificado, sin ajuste sospechoso, confianza alta, 8 días con ventas/30d y 4 variaciones sin datos suficientes para agrupar. Anuncios Meta PE: consulta de sinónimos encontró 1 anuncio activo reciente, 1 anunciante (Perú Bacán), formato video, antigüedad observada 31 días, visto activo hace 2 días. Oferta: 2 rodillos por S/69.90 con envío gratis; gancho recoge pelitos de ropa, sofá y superficies textiles. Enlace https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=926768590512698. Cinco propuestas: prueba en distintos tejidos solo si el producto lo admite; demostración antes/después sin exagerar; enfoque en hogares con mascotas como segmento a probar; mostrar limpieza/reutilización según ficha; pack de dos solo tras calcular margen con costos COD. Riesgos: verificar que atributos reutilizable/lavable estén confirmados por proveedor; desempeño variable por tejido y expectativas pueden provocar devoluciones; confirmar especificaciones de las 4 variaciones y moneda antes de publicar. Fuentes: DropKiller catálogo y biblioteca Meta PE, consulta 2026-10-20."
     }
   ]
 };
