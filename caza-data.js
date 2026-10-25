@@ -1,6 +1,6 @@
  // Feed público del Radar Diario; se actualiza con los informes fechados.
 window.WINNEXA_DAILY_HUNT = {
-  updatedAt: "2026-10-24T09:00:00-05:00",
+  updatedAt: "2026-10-24T20:37:48-05:00",
   runDate: "2026-10-24",
   items: [
     {
