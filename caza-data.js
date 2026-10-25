@@ -1,7 +1,7 @@
  // Feed público del Radar Diario; se actualiza con los informes fechados.
 window.WINNEXA_DAILY_HUNT = {
-  updatedAt: "2026-10-21T09:06:00-05:00",
-  runDate: "2026-10-21",
+  updatedAt: "2026-10-24T09:00:00-05:00",
+  runDate: "2026-10-24",
   items: [
     {
       id: "e3e1b2d9-39c9-48cc-a95c-653ad1bb1db2",
@@ -158,6 +158,32 @@ window.WINNEXA_DAILY_HUNT = {
       date: "2026-10-20",
       url: "https://app.dropi.pe/dashboard/search?search=174&search_type=id",
       notes: "Rentabilidad PENDIENTE: faltan flete de entrega y devolución, comisión COD %, tasa efectiva de entrega %, CPA por pedido generado y utilidad mínima; catálogo informa costo/precio sugerido 7/19 sin moneda confirmada. DropKiller PE consultado 2026-10-20: UUID 849ee460-2134-461b-82c6-ef8db434e80f, externo 174, nombre original 'rodillo quita pelusa', 20 ventas/7d, 41/30d, stock 164, ACTIVE, proveedor evermont verificado, sin ajuste sospechoso, confianza alta, 8 días con ventas/30d y 4 variaciones sin datos suficientes para agrupar. Anuncios Meta PE: consulta de sinónimos encontró 1 anuncio activo reciente, 1 anunciante (Perú Bacán), formato video, antigüedad observada 31 días, visto activo hace 2 días. Oferta: 2 rodillos por S/69.90 con envío gratis; gancho recoge pelitos de ropa, sofá y superficies textiles. Enlace https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=926768590512698. Cinco propuestas: prueba en distintos tejidos solo si el producto lo admite; demostración antes/después sin exagerar; enfoque en hogares con mascotas como segmento a probar; mostrar limpieza/reutilización según ficha; pack de dos solo tras calcular margen con costos COD. Riesgos: verificar que atributos reutilizable/lavable estén confirmados por proveedor; desempeño variable por tejido y expectativas pueden provocar devoluciones; confirmar especificaciones de las 4 variaciones y moneda antes de publicar. Fuentes: DropKiller catálogo y biblioteca Meta PE, consulta 2026-10-20."
+    },
+    {
+      id: "46006892-fa32-4cdd-81e6-0fb3ccabfdef",
+      name: "pasta dental con hidroxiapatita",
+      country: "PE",
+      platform: "DROPI",
+      category: "salud-bienestar",
+      supplier: "null (no verificado)",
+      sales7: 21,
+      sales30: 22,
+      stock: 78,
+      cost: 27,
+      suggestedPrice: 129,
+      currency: null,
+      score: 8,
+      scoreBreakdown: {
+        need: { score: 2, reason: "La sensibilidad y el cuidado del esmalte aparecen en anuncios PE de pastas con hidroxiapatita, aunque no corresponden a esta ficha exacta." },
+        emotionalBenefit: { score: 2, reason: "Los anuncios de categoría apelan a sonrisa y confianza; no hay resultados independientes ni atribución exacta." },
+        demonstration: { score: 2, reason: "El uso de una pasta se entiende al cepillarse; no se encontró demo atribuible a la SKU del proveedor." },
+        newAngles: { score: 2, reason: "En la muestra aparecen sensibilidad, esmalte y blanqueamiento; se pueden probar demostraciones transparentes de ingredientes y rutina sin promesas clínicas." },
+        bundle: { score: 0, reason: "Los packs observados corresponden a categoría y no se confirmó esta SKU ni un margen COD defendible." }
+      },
+      status: "PENDIENTE",
+      date: "2026-10-24",
+      url: "https://app.dropi.pe/dashboard/search?search=8263&search_type=id",
+      notes: "Rentabilidad PENDIENTE: faltan flete de entrega y devolución, comisión COD %, tasa efectiva de entrega %, CPA por pedido generado y utilidad mínima; moneda del catálogo no confirmada. DropKiller catálogo PE consultado 2026-10-24: id 46006892-fa32-4cdd-81e6-0fb3ccabfdef, externo 8263, nombre original 'pasta dental con hidroxiapatita', ventas 21/7d y 22/30d, stock 78, ACTIVE, ajuste sospechoso false, proveedor 'null' no verificado, costo reportado 27, precio sugerido 129, confianza alta. Precio sugerido equivale a 4.8x costo y debe validarse; no se trata como precio de mercado. Historial reciente registra 14 ventas el 2026-10-23 y 7 el 2026-10-21, datos agregados al 2026-10-24. Anuncios Meta PE consultados 2026-10-24: búsqueda exacta retornó 3 variaciones del mismo anunciante Trendy Picks Online para pasta con nano-hidroxiapatita 7.5%, sensibilidad/esmalte, envío gratis y pago al recibir, precio S/130 (antes S/260), video, publicados 2026-10-21, antigüedad observada 1-2 días; collationCount 3. Consulta de hidroxiapatita dental añadió Distribuidora Antonio (tratamiento nano-hidroxiapatita, video, visto 2026-10-23) y la búsqueda de pasta dental incluyó Lima Mia/ATTITUDE con hidroxiapatita y consulta por packs, pero esa búsqueda es contexto de categoría. Muestra: 3 anunciantes de relevancia/alcance mixtos, al menos 5 registros, no estimación de mercado. Enlaces: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=2023368171613979 ; https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=1605249494733428 ; https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=1627759198887287 . Ángulos observados: sensibilidad, esmalte, blanqueamiento, ingredientes y pago contra entrega; oferta S/130 vs S/260 y packs de categoría. Hipótesis por validar: rutina de cepillado sin afirmar tratamiento; mostrar composición y concentración solo con etiqueta verificable; explicar textura y cantidad; comparar formato/tamaño real; pack familiar solo con mismo SKU y margen comprobado. Riesgos: producto de higiene bucal y claims de sensibilidad/blanqueamiento requieren revisar composición, etiquetado y reglas locales con fuente oficial; riesgo de expectativas/claims terapéuticos; proveedor no verificado; precio sugerido muy por encima del costo requiere corroboración. Fuentes DropKiller catálogo, historial y anuncios Meta PE, consultados 2026-10-24."
     }
   ]
 };
