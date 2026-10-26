@@ -1,7 +1,7 @@
  // Feed público del Radar Diario; se actualiza con los informes fechados.
 window.WINNEXA_DAILY_HUNT = {
-  updatedAt: "2026-10-25T11:46:12-05:00",
-  runDate: "2026-10-25",
+  updatedAt: "2026-10-26T14:25:12-05:00",
+  runDate: "2026-10-26",
   items: [
     {
       id: "e3e1b2d9-39c9-48cc-a95c-653ad1bb1db2",
@@ -184,6 +184,32 @@ window.WINNEXA_DAILY_HUNT = {
       date: "2026-10-24",
       url: "https://app.dropi.pe/dashboard/search?search=8263&search_type=id",
       notes: "Rentabilidad PENDIENTE: faltan flete de entrega y devolución, comisión COD %, tasa efectiva de entrega %, CPA por pedido generado y utilidad mínima; moneda del catálogo no confirmada. DropKiller catálogo PE consultado 2026-10-24: id 46006892-fa32-4cdd-81e6-0fb3ccabfdef, externo 8263, nombre original 'pasta dental con hidroxiapatita', ventas 21/7d y 22/30d, stock 78, ACTIVE, ajuste sospechoso false, proveedor 'null' no verificado, costo reportado 27, precio sugerido 129, confianza alta. Precio sugerido equivale a 4.8x costo y debe validarse; no se trata como precio de mercado. Historial reciente registra 14 ventas el 2026-10-23 y 7 el 2026-10-21, datos agregados al 2026-10-24. Anuncios Meta PE consultados 2026-10-24: búsqueda exacta retornó 3 variaciones del mismo anunciante Trendy Picks Online para pasta con nano-hidroxiapatita 7.5%, sensibilidad/esmalte, envío gratis y pago al recibir, precio S/130 (antes S/260), video, publicados 2026-10-21, antigüedad observada 1-2 días; collationCount 3. Consulta de hidroxiapatita dental añadió Distribuidora Antonio (tratamiento nano-hidroxiapatita, video, visto 2026-10-23) y la búsqueda de pasta dental incluyó Lima Mia/ATTITUDE con hidroxiapatita y consulta por packs, pero esa búsqueda es contexto de categoría. Muestra: 3 anunciantes de relevancia/alcance mixtos, al menos 5 registros, no estimación de mercado. Enlaces: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=2023368171613979 ; https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=1605249494733428 ; https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=1627759198887287 . Ángulos observados: sensibilidad, esmalte, blanqueamiento, ingredientes y pago contra entrega; oferta S/130 vs S/260 y packs de categoría. Hipótesis por validar: rutina de cepillado sin afirmar tratamiento; mostrar composición y concentración solo con etiqueta verificable; explicar textura y cantidad; comparar formato/tamaño real; pack familiar solo con mismo SKU y margen comprobado. Riesgos: producto de higiene bucal y claims de sensibilidad/blanqueamiento requieren revisar composición, etiquetado y reglas locales con fuente oficial; riesgo de expectativas/claims terapéuticos; proveedor no verificado; precio sugerido muy por encima del costo requiere corroboración. Fuentes DropKiller catálogo, historial y anuncios Meta PE, consultados 2026-10-24."
+    },
+    {
+      id: "2f94e9e5-c554-47d7-ade2-e5cb80733610",
+      name: "smartwatch d20",
+      country: "PE",
+      platform: "ALICLICK",
+      category: "tecnologia",
+      supplier: "majestic import (no verificado)",
+      sales7: 34,
+      sales30: 34,
+      stock: 18,
+      cost: 16,
+      suggestedPrice: 69,
+      currency: null,
+      score: 5,
+      scoreBreakdown: {
+        need: { score: 2, reason: "La categoría sugiere consulta de hora/actividad en muñeca, pero la ficha no aporta funciones confirmadas." },
+        emotionalBenefit: { score: 1, reason: "No se encontró evidencia específica de beneficio emocional o de estatus atribuible a este D20." },
+        demonstration: { score: 1, reason: "La ficha tiene imagen, pero el nombre del archivo alude a un trío de pulseras; confirmar que corresponde al D20." },
+        newAngles: { score: 1, reason: "No hubo anuncios exactos; la muestra contextual de smartwatch PE ya usa llamadas, pantalla, salud, estilo y ofertas." },
+        bundle: { score: 0, reason: "No hay pack verificado y margen/moneda siguen pendientes; no se puede defender una oferta." }
+      },
+      status: "PENDIENTE",
+      date: "2026-10-26",
+      url: "https://aliclik.app/dashboard/search?search=19983",
+      notes: "Rentabilidad PENDIENTE: faltan flete de entrega y devolución, comisión COD %, tasa efectiva de entrega %, CPA por pedido generado y utilidad mínima; moneda no confirmada. DropKiller PE consultado 2026-10-26: UUID 2f94e9e5-c554-47d7-ade2-e5cb80733610, externo 19983, nombre original 'smartwatch d20', costo 16, sugerido 69, 34 ventas/7d y 34/30d, stock 18, ACTIVE, provider majestic import no verificado, ajuste sospechoso false, 1 día con ventas/30d y confianza baja (pico de un día). Producto: https://app.dropkiller.com/dashboard/products/2f94e9e5-c554-47d7-ade2-e5cb80733610 ; imagen https://cdndropkiller.com/products/2f94e9e5-c554-47d7-ade2-e5cb80733610/350b7a4da526.webp ; el URL de origen de la imagen contiene el nombre de archivo 'Trío de pulseras inteligentes en exhibición', identidad visual por confirmar. Anuncios Meta PE consultados 2026-10-26: búsquedas exactas 'smartwatch d20' y 'reloj inteligente d20', 0 coincidencias. Contexto de categoría para 'smartwatch', ACTIVE y visto en últimos 7 días: 34 anuncios de 28 anunciantes, 11 imágenes y 23 videos, antigüedad observada 0–254 días; esto no es competencia atribuible al SKU. Muestra contextual: Loox Store, video RAPTOR con resistencia/batería y pago al recibir, 6 días, https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=1081024441584022 ; JedainaStore, video T900S con llamadas/notificaciones y audífonos regalo por S/80, 12 días, https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=1879943626535304 ; UltraPrex corp, imagen reloj infantil Q19 a S/69, 12 días, público y funciones distintos, https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&id=1106427745085648 . Ganchos contextuales: llamadas, notificaciones, pantalla/Android, resistencia, monitoreo, garantía, envío y pago al recibir; ofertas/descuentos y accesorios de regalo. Cinco hipótesis, no evidencia: confirmar primero funciones y mostrar solo las verificadas; demostración real de vinculación con celular compatible; comparar tamaño y lectura de pantalla sin claims de salud; guía de compatibilidad/uso según manual; pack de correa o accesorio únicamente si viene confirmado y margen COD lo permite. Riesgos: pico de ventas de un solo día, proveedor no verificado, stock 18, identidad/foto potencialmente inconsistente, compatibilidad y calidad electrónica con devoluciones probables, posible batería/carga y garantía por confirmar. Fuentes: ficha e historial DropKiller y biblioteca de anuncios Meta PE, consulta 2026-10-26."
     }
   ]
 };
